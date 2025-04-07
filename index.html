@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css">
+    <title>HappyBirthday</title>
+  </head>
+
+  <body>
+    <div class="container">
+        <div style="padding-bottom: 40px;">
+            <h2>Do you want to receive</h2>
+            <h2>my special gift?</h2>
+        </div>
+        <div class="pic">
+            <img id="mainImg" src="./assets/main.png" alt="receive?" style="width: 100px;">
+        </div>
+        <div class="yes-no-btn">
+            <div>
+                <a href="Error404.html"><button
+                    id="no-btn"
+                    onmouseover="changeImg('./assets/No.png')"
+                    onmouseout="resetImg()"
+                >No</button></a>
+            </div>
+            <div>
+                <a href="firstPage.html"><button
+                    id="yes-btn"
+                    onmouseover="changeImg('./assets/Yes3.png')"
+                    onmouseout="resetImg()"    
+                >Yes</button></a>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </div>
+  </body>
+</html>
